@@ -440,7 +440,7 @@ async function delete_tweets(id_list) {
     }
     retry = 0;
     console.log(`${i}/${id_list_size}`);
-    await sleep(100);
+    await sleep(1000);
   }
 }
 
